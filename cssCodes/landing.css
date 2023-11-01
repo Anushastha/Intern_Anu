@@ -169,19 +169,24 @@ body {
   height: 48px;
   border: none;
   cursor: pointer;
+  display: flex;
+  margin-top: 10px;
 }
-.plane-button-two span,
-.stays-button-two span {
+.plane-button-two p,
+.stays-button-two p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0em;
   margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .vl {
   border-left: 1.5px solid #d7e2ee;
   height: 50px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 .options {
   padding: 30px;
@@ -329,6 +334,7 @@ body {
 }
 .sub-heading p {
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 .sub-heading {
   font-size: 16px;
@@ -447,7 +453,6 @@ body {
   height: 100%;
   width: 490px;
   box-shadow: rgba(17, 34, 17, 0.08) 0px 4px 30px 1px;
-
 }
 .grad {
   position: absolute;
@@ -470,16 +475,20 @@ body {
   padding: 50px;
   z-index: 1;
 }
-.flights-info h1, .hotels-info h1,.flights-info p, .hotels-info p{
+.flights-info h1,
+.hotels-info h1,
+.flights-info p,
+.hotels-info p {
   margin-bottom: 6px;
   margin-top: 0;
   text-align: center;
 }
-.flights-info h1, .hotels-info h1{
+.flights-info h1,
+.hotels-info h1 {
   font-family: myFont, sans-serif;
   font-weight: 700;
 }
-.review-section{
+.review-section {
   position: absolute;
   top: 1850px;
   width: 1000px;
@@ -509,20 +518,102 @@ body {
   line-height: 17px;
   letter-spacing: 0em;
 }
-.reviews{
-  max-height: 120px;
-  border: 2px solid #112211;
-  display:flex;
+.reviews {
+  max-height: 525px;
+  display: flex;
   overflow-x: auto;
 }
-.reviews::-webkit-scrollbar{
+.reviews::-webkit-scrollbar {
   width: 0;
 }
-.reviewOne{
+.reviewSection {
+  min-width: 330px;
+  height: 525px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px;
+  margin-right: 2px;
+  padding: 24px;
+  border-radius: 20px;
+}
+.review-heading {
+  font-family: myFont, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.des {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+  opacity: 50%;
+}
+.view-more {
+  text-align: right;
+}
+.view-more-button {
+  font-family: myFont, sans-serif;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.reviewOne {
   min-width: 425px;
   height: 584px;
-  line-height: 110px;
+  line-height: 584px;
   text-align: center;
   background-color: #7f8fa6;
   margin-right: 2px;
+}
+.star {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.checked {
+  color: #ffc107;
+  font-size: 24px;
+}
+.details {
+  text-align: left;
+}
+.details span {
+  font-family: myFont, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+.details p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #112211;
+  opacity: 50%;
+  margin-top: 4px;
+}
+.google-logo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.google-logo p {
+  font-family: myFont, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  color: #112211;
+  opacity: 40%;
 }
