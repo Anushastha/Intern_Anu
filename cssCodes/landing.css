@@ -522,6 +522,7 @@ body {
   max-height: 525px;
   display: flex;
   overflow-x: auto;
+  gap: 30px;
 }
 .reviews::-webkit-scrollbar {
   width: 0;
@@ -529,7 +530,7 @@ body {
 .reviewSection {
   min-width: 330px;
   height: 525px;
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px;
+  box-shadow: rgba(17, 34, 17, 0.08) 0px 4px 30px 1px;
   margin-right: 2px;
   padding: 24px;
   border-radius: 20px;
