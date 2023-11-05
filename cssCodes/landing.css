@@ -166,6 +166,7 @@ body {
 .plane-button-two,
 .stays-button-two {
   background-color: transparent;
+  color: #112211;
   height: 48px;
   border: none;
   cursor: pointer;
