@@ -185,8 +185,15 @@ body {
 .vl {
   border-left: 1.5px solid #d7e2ee;
   height: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.horizontal-line{
+  margin-left: 30px;
+  width: 100px;
+  height: 4px;
+  background-color: #8dd3bb;
+  border: none;
 }
 .options {
   padding: 30px;
