@@ -519,10 +519,11 @@ body {
   letter-spacing: 0em;
 }
 .reviews {
-  max-height: 525px;
+  max-height: 710px;
   display: flex;
   overflow-x: auto;
-  gap: 30px;
+  gap: 40px;
+  padding-right: 20px;
 }
 .reviews::-webkit-scrollbar {
   width: 0;
@@ -530,14 +531,18 @@ body {
 .reviewSection {
   min-width: 330px;
   height: 525px;
-  box-shadow: rgba(17, 34, 17, 0.08) 0px 4px 30px 1px;
+  box-shadow: rgba(141, 211, 187, 0.4) 20px 20px 0px 1px,
+    rgba(17, 34, 17, 0.08) 0px 4px 30px 1px;
   margin-right: 2px;
+  margin-left: 5px;
+  margin-top: 20px;
   padding: 24px;
   border-radius: 20px;
+  margin-bottom: 40px;
 }
 .review-heading {
   font-family: myFont, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
@@ -566,14 +571,6 @@ body {
   letter-spacing: 0em;
   margin-top: 16px;
   margin-bottom: 16px;
-}
-.reviewOne {
-  min-width: 425px;
-  height: 584px;
-  line-height: 584px;
-  text-align: center;
-  background-color: #7f8fa6;
-  margin-right: 2px;
 }
 .star {
   display: flex;
@@ -617,4 +614,132 @@ body {
   letter-spacing: 0em;
   color: #112211;
   opacity: 40%;
+}
+.footer {
+  height: fit-content;
+}
+.subscribe {
+  background-color: #cdeae1;
+  width: 1000px;
+  height: 265px;
+  position: absolute;
+  border-radius: 16px;
+  top: 2680px;
+  left: 10%;
+  z-index: 2;
+}
+.bottom-info {
+  position: absolute;
+  background-color: #8dd3bb;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+  top: 2800px;
+  left: 0;
+}
+.subscribe{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(17, 34, 17, 0.05) 0px 4px 30px 1px;
+}
+.subscribe-details{
+  padding: 20px;
+}
+.subscribe-heading{
+  font-family: myFont, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: #112211;
+  margin-bottom: 25px;
+}
+.travel{
+  font-family: myFont, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: #112211;
+  opacity: 80%;
+  margin-bottom: 10px;
+}
+.promo{
+  color: #112211;
+  opacity: 70%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom: 15px;
+}
+.subscribe-email input{
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  width: 350px;
+  height: 50px;
+  border-radius: 4px;
+  gap: 10px
+}
+.subscribe-email input::placeholder{
+  color: #1C1B1F;
+}
+.subscribe-email input:focus{
+  outline: none;
+  border: none;
+}
+.subscribe-button{
+  border: none;
+  background-color: #112211;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  border-radius: 4px;
+  margin-left: 10px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+.logos{
+  position: absolute;
+  top: 200px;
+  left: 10%;
+}
+.bottom-logos{
+  margin-top: 20px;
+  display: flex;
+  gap: 13px;
+}
+.bottom-logos img{
+  cursor: pointer;
+}
+.website-info{
+  position: absolute;
+  top: 185px;
+  left: 30%;
+  gap: 35px;
+  display: flex;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  color: #112211;
+  opacity: 70%;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.website-info p {
+  font-family: myFont, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #112211;
 }
