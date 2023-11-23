@@ -1,8 +1,0 @@
-{
-    "builds": [{ "src": "htmlCodes/**/*", "use": "@now/static" }],
-    "routes": [{ "src": "/(.*)", "dest": "/htmlCodes/$1" }],
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ]
-  }
-  
